@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+body {
+    color: #383838;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(background.png);    
+ 	}
+
+#container{
+	width: 768px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: auto;
+	
+}
+header {
+    width: 768px;
+    height: 250px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(logot.png);                                                                                  
+}
+	
+h1 {
+    font-family: politica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+    color: #000000;    
+}
+
+/*Float the Main so it shows up next the the Aside. Reduce width by 150px so they both line header.*/
+main {
+    width: 575px;
+    height: 1600px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	background-color: #FFFFFF;
+	}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    background-color: #7f3c10;
+}
+body aside {
+    width: 150px;
+    height: 2000px;
+    float: left;
+    background-color: #f8981d;
+}
+p{
+   font-family: canada-type-gibson, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #000000;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 18pt;
+}
+.floatLeft {
+	float: left;
+}
+article {
+    margin-bottom: 50px;
+}
+#container nav {
+    width: 768px;
+    height: 50px;
+}
+
+nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-top: 0px;
+    margin-right: 80px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 60px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+   	
+}
+
+#container nav ul {
+    width: 550px;
+	margin-left: auto;
+}
+
+nav a:link {
+    color: #f8981d;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #7f3c10;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #f8981d;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #242424;
+}
+
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    background-color: #f8981d;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-box-shadow: 6px 6px 35px 1px;
+    box-shadow: 6px 6px 35px 1px;
+}
+.submit_btn:hover {
+	    -webkit-box-shadow: 6px 6px 35px 1px;
+    box-shadow: 6px 6px 35px 1px;
+}

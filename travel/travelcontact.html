@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link href="travel.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/djl6kmu.css"> 
+<link rel="stylesheet" href="https://use.typekit.net/djl6kmu.css">
+<link rel="stylesheet" href="https://use.typekit.net/djl6kmu.css">
+
+</head>
+
+<body>
+<div id="container">
+  <header></header>
+  <nav>
+	<li><a href="travel.html">Welcome</a></li>
+		<li><a href="travelgallery.html">Gallery</a></li>
+		<li><a href="travelcontact.html">Contact</a></li>
+  </nav>
+  <!--Begin Floated Elements-->
+  <aside>
+	</aside>
+  <main>
+    <h1>Contact Me</h1>
+    <form>
+	  <p>Your Name: <input name="user_name" type="text" id="user_name" value="First and Last Name" size="50"></p>	
+	  <p>Your Email:<input name="user_email" type="email" id="user_email" size="50"></p>	
+	  <p>Leave a message:<br><textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+	  <p>Why did you pick this place to Visit?<br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+        The villages</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+        Hiking</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+        Scenery</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+	      Isolated vacation</label>
+	    <br>
+      </p>
+		<input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="Send me a Message">
+     </form>
+  </main>
+  <!--End Floated Elements-->
+  <footer>&nbsp;</footer>
+</div>
+</body>
+</html>
